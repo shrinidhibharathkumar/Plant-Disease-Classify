@@ -1,0 +1,7 @@
+torch
+torchvision
+torchaudio
+ultralytics
+seaborn
+onnxruntime
+onnx
