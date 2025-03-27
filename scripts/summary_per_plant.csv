@@ -1,0 +1,15 @@
+Plant,Apple_scab,Bacterial_spot,Black_rot,Cedar_apple_rust,Cercospora_leaf_spot Gray_leaf_spot,Common_rust_,Early_blight,Esca_(Black_Measles),Haunglongbing_(Citrus_greening),Late_blight,Leaf_Mold,Leaf_blight_(Isariopsis_Leaf_Spot),Leaf_scorch,Northern_Leaf_Blight,Powdery_mildew,Septoria_leaf_spot,Spider_mites Two-spotted_spider_mite,Target_Spot,Tomato_Yellow_Leaf_Curl_Virus,Tomato_mosaic_virus,healthy,Diseased_to_Healthy
+Apple,2016,0,1987,1760,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2008,3.870019920318725
+Blueberry,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1816,1.0
+Cherry_(including_sour),0,0,0,0,0,0,0,0,0,0,0,0,0,0,1683,0,0,0,0,0,1826,1.9216867469879517
+Corn_(maize),0,0,0,0,1642,1907,0,0,0,0,0,0,0,1908,0,0,0,0,0,0,1859,3.935449166218397
+Grape,0,0,1888,0,0,0,0,1920,0,0,0,1722,0,0,0,0,0,0,0,0,1692,4.268321513002364
+Orange,0,0,0,0,0,0,0,0,2010,0,0,0,0,0,0,0,0,0,0,0,0,inf
+Peach,0,1838,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1728,2.0636574074074074
+"Pepper,_bell",0,1913,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1988,1.9622736418511066
+Potato,0,0,0,0,0,0,1939,0,0,1939,0,0,0,0,0,0,0,0,0,0,1824,3.12609649122807
+Raspberry,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1781,1.0
+Soybean,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2022,1.0
+Squash,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1736,0,0,0,0,0,0,inf
+Strawberry,0,0,0,0,0,0,0,0,0,0,0,0,1774,0,0,0,0,0,0,0,1824,1.9725877192982457
+Tomato,0,1702,0,0,0,0,1920,0,0,1851,1882,0,0,0,0,1745,1741,1827,1961,1790,1926,9.524922118380061
