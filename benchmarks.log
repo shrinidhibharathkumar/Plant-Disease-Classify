@@ -1,0 +1,20 @@
+
+Benchmarks complete for weights/yolo11n-cls.pt on /kaggle/working/datasets at imgsz=640 (167.86s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
+  Format Status❔  Size (MB)  metrics/accuracy_top1  Inference time (ms/im)     FPS
+0   ONNX       ✅        6.0                 0.9991                    4.38  228.06
+
+Benchmarks complete for weights/yolo11n-cls.pt on /kaggle/working/datasets at imgsz=640 (293.55s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
+     Format Status❔  Size (MB)  metrics/accuracy_top1  Inference time (ms/im)     FPS
+0  TensorRT       ✅        7.2                 0.9991                    3.77  265.47
+
+Benchmarks complete for weights/yolo8n-cls.pt on /kaggle/working/datasets at imgsz=640 (155.55s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
+  Format Status❔  Size (MB)  metrics/accuracy_top1  Inference time (ms/im)    FPS
+0   ONNX       ✅        5.7                 0.9986                    3.95  252.9
+
+Benchmarks complete for weights/yolo8n-cls.pt on /kaggle/working/datasets at imgsz=640 (179.94s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
+     Format Status❔  Size (MB)  metrics/accuracy_top1  Inference time (ms/im)    FPS
+0  TensorRT       ✅        7.0                 0.9986                    3.66  273.4
