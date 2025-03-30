@@ -6,3 +6,7 @@ seaborn
 onnxruntime
 onnx
 squarify
+fastapi
+uvicorn 
+python-multipart 
+requests
