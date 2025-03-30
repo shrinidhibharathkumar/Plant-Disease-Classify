@@ -1,11 +1,12 @@
 from fastapi import FastAPI, UploadFile, File, Form
-from fastapi.responses import StreamingResponse
+from fastapi.responses import StreamingResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from app.model.yolo_model import load_model, predict
 from app.utils.image_io import read_image_from_upload, read_image_from_url
 from app.utils.annotate import annotate_image
 from io import BytesIO
 import cv2
+import base64
 
 app = FastAPI()
 
@@ -32,7 +33,15 @@ async def process_image(image: UploadFile = File(None), imageUrl: str = Form(Non
 
     label, conf = predict(model, img)
     annotated_img = annotate_image(img, label, conf)
+    confidence_float = float(conf)
 
-    # Encode the annotated image as JPEG
+    # Encode image
     _, buffer = cv2.imencode('.jpg', annotated_img)
-    return StreamingResponse(BytesIO(buffer.tobytes()), media_type="image/jpeg")
+    image_bytes = BytesIO(buffer.tobytes())
+    base64_image = base64.b64encode(image_bytes.read()).decode("utf-8")
+
+    return {
+        "image": base64_image,
+        "label": label,
+        "confidence": confidence_float*100
+    }
